@@ -1,0 +1,13 @@
+{
+	"presets": [ "@babel/preset-env" ], 
+	"plugins": [
+		["@babel/plugin-transform-runtime"], 
+		["module-resolver", {
+			"root": ["./fe/src"], 
+			"alias": {
+				"@root": "./fe/", 
+				"@webpack": "./fe/webpack"
+			}
+		}]
+	]
+}

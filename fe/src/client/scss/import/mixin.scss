@@ -1,0 +1,19 @@
+@mixin hide_font {
+	font-size: 0;
+	color: transparent;
+}
+
+@mixin ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+@mixin multi_ellipsis( $line ) {
+	display: -webkit-box;
+	-webkit-line-clamp: $line;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}

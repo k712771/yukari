@@ -1,0 +1,5 @@
+# default
+node_modules
+dist
+sprite
+package-lock.json
