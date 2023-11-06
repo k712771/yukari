@@ -1,0 +1,20 @@
+@keyframes loaing_animation {
+	0% {
+		transform: scale(100%, 100%) translateY(0);
+	}
+	15% {
+		transform: scale(130%, 110%) translateY(-60%);
+	}
+	30% {
+		transform: scale(100%, 100%) translateY(0);
+	}
+}
+
+@keyframes scale_button {
+	0% {
+		transform: scale(100%);
+	}
+	50% {
+		transform: scale(80%);
+	}
+}
